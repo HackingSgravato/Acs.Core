@@ -14,6 +14,14 @@ Acs Core contains both AcsFinder and AcsDumper source.
 
 ## Installation
 
+Download the nuget to use Acs Core in your own project
+
+```sh
+https://www.nuget.org/packages/AcsCore
+```
+
+## Build
+
 Acs Core requires [.Net 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) to be built.
 
 You can use git clone and build your own copy
