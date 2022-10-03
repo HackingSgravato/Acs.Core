@@ -14,10 +14,20 @@ Acs Core contains both AcsFinder and AcsDumper source.
 
 ## Installation
 
-Download the nuget to use Acs Core in your own project
+Download the [nuget](https://www.nuget.org/packages/AcsCore) to use Acs Core in your own project
 
 ```sh
 https://www.nuget.org/packages/AcsCore
+```
+
+or use the dll release version below.
+
+## Release
+
+You can download the latest version [here](https://github.com/HackingSgravato/Acs.Core/releases/tag/v1.0.0)
+
+```sh
+https://github.com/HackingSgravato/Acs.Core/releases/tag/v1.0.0
 ```
 
 ## Build
