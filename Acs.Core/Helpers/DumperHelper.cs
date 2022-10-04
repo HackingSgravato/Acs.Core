@@ -19,11 +19,13 @@ internal static class DumperHelper
 
         List<string> results = new();
 
+        string externalDumper = StringsResource.ExternalDumperPath.Replace("USERNAME", Environment.UserName);
+
         _ = Parallel.ForEach(processes, process =>
         {
             string result = Assets.s_createFile();
 
-            processStartInfo.Arguments = $"/C {StringsResource.ExternalDumperPath} -pid {process.Id} -nh > \"{result}\"";
+            processStartInfo.Arguments = $"/C {externalDumper} -pid {process.Id} -nh > \"{result}\"";
 
             Process.Start(processStartInfo)?.WaitForExit();
 
@@ -42,11 +44,13 @@ internal static class DumperHelper
             CreateNoWindow = true
         };
 
+        string externalDumper = StringsResource.ExternalDumperPath.Replace("USERNAME", Environment.UserName);
+
         foreach (int id in processesId)
         {
             string result = Assets.s_createFile();
 
-            processStartInfo.Arguments = $"/C {StringsResource.ExternalDumperPath} -pid {id} -nh > \"{result}\"";
+            processStartInfo.Arguments = $"/C {externalDumper} -pid {id} -nh > \"{result}\"";
 
             Process.Start(processStartInfo)?.WaitForExit();
 
