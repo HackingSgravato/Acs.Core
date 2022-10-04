@@ -12,6 +12,33 @@ Acs Core contains both AcsFinder and AcsDumper source.
 - Find occurrences between two or more files
 - Search something in one or more files
 
+## How To Use
+
+These are just some examples.
+
+```sh
+string[] results = AcsDumper.Dump(processesId);
+
+foreach (string result in results)
+{
+    Assets.OpenFile(result);
+}
+```
+
+```sh
+results = AcsDumper.DumpAvailable();
+
+foreach (string result in results)
+{
+    Assets.OpenFile(result);
+}
+```
+
+```sh
+string result = AcsFinder.GetDifferences(filesList);
+Assets.OpenFile(result);
+```
+
 ## Installation
 
 Download the [nuget](https://www.nuget.org/packages/AcsCore) to use Acs Core in your own project
@@ -24,10 +51,10 @@ or use the dll release version below.
 
 ## Release
 
-You can download the latest version [here](https://github.com/HackingSgravato/Acs.Core/releases/tag/v1.0.0)
+You can download the latest version [here](https://github.com/HackingSgravato/Acs.Core/releases/tag/v1.0.1.1)
 
 ```sh
-https://github.com/HackingSgravato/Acs.Core/releases/tag/v1.0.0
+https://github.com/HackingSgravato/Acs.Core/releases/tag/v1.0.1.1
 ```
 
 ## Build
