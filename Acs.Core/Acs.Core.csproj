@@ -13,7 +13,7 @@
     <PackageId>AcsCore</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <Version>1.0.1</Version>
+    <Version>1.0.1.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
