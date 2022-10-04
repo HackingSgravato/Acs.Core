@@ -51,10 +51,10 @@ or use the dll release version below.
 
 ## Release
 
-You can download the latest version [here](https://github.com/HackingSgravato/Acs.Core/releases/tag/v1.0.1.1)
+You can download the latest version [here](https://github.com/HackingSgravato/Acs.Core/releases/tag/v1.0.0)
 
 ```sh
-https://github.com/HackingSgravato/Acs.Core/releases/tag/v1.0.1.1
+https://github.com/HackingSgravato/Acs.Core/releases/tag/v1.0.0
 ```
 
 ## Build
