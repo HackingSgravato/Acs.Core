@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ExternalDumperPath" xml:space="preserve">
-    <value>C:\Users\paolo\AppData\Local\Temp\ExternalDumper.exe</value>
+    <value>C:\Users\USERNAME\AppData\Local\Temp\ExternalDumper.exe</value>
   </data>
 </root>

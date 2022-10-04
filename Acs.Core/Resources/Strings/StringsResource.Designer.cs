@@ -61,7 +61,7 @@ namespace Acs.Core.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\paolo\AppData\Local\Temp\ExternalDumper.exe.
+        ///   Looks up a localized string similar to C:\Users\USERNAME\AppData\Local\Temp\ExternalDumper.exe.
         /// </summary>
         internal static string ExternalDumperPath {
             get {

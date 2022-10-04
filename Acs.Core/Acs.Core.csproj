@@ -4,7 +4,27 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>AcsCore</Title>
+    <Company>hackingsgravato.github.io</Company>
+    <Authors>hackingsgravato.github.io</Authors>
+    <PackageProjectUrl>hackingsgravato.github.io</PackageProjectUrl>
+    <PackageIcon>Acs.jpg</PackageIcon>
+    <PackageId>AcsCore</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Assets\Acs.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\Assets\AcsCore\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="Resources\Files\FilesResource.resx">

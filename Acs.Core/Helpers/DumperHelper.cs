@@ -56,7 +56,9 @@ internal static class DumperHelper
 
     internal static void s_extractExternalDumper()
     {
-        using FileStream file = File.Create(StringsResource.ExternalDumperPath);
+        string path = StringsResource.ExternalDumperPath.Replace("USERNAME", Environment.UserName);
+
+        using FileStream file = File.Create(path);
 
         byte[] buffer = FilesResource.ExternalDumper;
 
